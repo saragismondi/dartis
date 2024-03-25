@@ -18,15 +18,692 @@
   <link rel="apple-touch-icon" href="icon.png">
 
   <link rel="manifest" href="site.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+
+
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <div class="desktop-container">
+
+    <div class="desktop-wrapper">
+
+      <div class="desktop-menu-wrapper">
+
+        <fieldset class="desktop-fieldset">
+
+
+
+          <ul class="desktop-list">
+            <li>
+              <label for="img">
+                <img src="./img/DARTIS512_SINFONDO.png" alt="logotipo" class="logotipo" />
+              </label>
+              <input type="checkbox" id="img" name="desktop-list">
+            </li>
+            <li>
+              <label for="compras">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">Compras</p>
+              </label>
+              <input type="checkbox" id="compras" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Configuracion Compras</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Ordenes</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Proveedores</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Requisiciones</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="contabilidad">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">Contabilidad</p>
+              </label>
+              <input type="checkbox" id="contabilidad" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Activos</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Asientos contables</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Centros de costos</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Configuracion contabilidad</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Documentos SRI</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Formas de pago</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Impuesto documento</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Mayores</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Período de cierre</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Períodos de facturacion exportacion</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Plan de cuentas</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Pto Emision</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Retensiones</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Tipos contribuyente</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Tipos Retención</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="cuentasporcobrar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">Cuentas por cobrar</p>
+              </label>
+              <input type="checkbox" id="cuentasporcobrar" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Notas C D</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Pagos</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Transacciones CxC</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="cuentasporpagar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">Cuentas por pagar</p>
+              </label>
+              <input type="checkbox" id="cuentasporpagar" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Notas C/D</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Transacciones</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="cultivo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">Cultivo</p>
+              </label>
+              <input type="checkbox" id="cultivo" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Mapa de cultivo</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Mapa de cultivo 2</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Variedades</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="exportaciones">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">Exportaciones</p>
+              </label>
+              <input type="checkbox" id="exportaciones" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Adicionales</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Agencias carga</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Clientes</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Configuracion Exportación</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Coordinacion 2</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Cuartos fríos</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Daes</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Dashboard</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Destinatarios</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Empaques y validación</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Guías de remisión</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Tipos de Caja</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Vendedores</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Ventas</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="general">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">General</p>
+              </label>
+              <input type="checkbox" id="general" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Países</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="inventarios">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">Inventarios</p>
+              </label>
+              <input type="checkbox" id="inventarios" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Artículos</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Pedidos bodega</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Stock bodegas</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="postcosecha">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">Postcosecha</p>
+              </label>
+              <input type="checkbox" id="postcosecha" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Configuración postcosecha</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Dashboard</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Etiquetas postcosecha</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Faltantes por postcosecha</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Inventario postcosecha</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Lectura stock</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Mallas</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Mallas touch</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Mesas</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Nacional</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Nacional2</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Otras transacciones</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Producción</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Producción no touch</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Recetas</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Rendimiento Mesas</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Stock Postcosecha</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="rrhh">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">RR.HH</p>
+              </label>
+              <input type="checkbox" id="rrhh" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Asistencia</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Ausentismo</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Cargas Familiares</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Configuración RR.HH</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Dotación</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Empleados</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Préstamos empleados</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Resumen asistencia</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Roles de pago</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Rubros</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Rubros Fijos</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="sistemas">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">Sistemas</p>
+              </label>
+              <input type="checkbox" id="sistemas" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Permisos tablas dinámicas</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Usuarios</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="tesorería">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">Tesorería</p>
+              </label>
+              <input type="checkbox" id="tesorería" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Cuenta bancaria</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Libro banco</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <label for="ventaslocal">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM13.6 11L11.8 9.2L13.2 7.8L17.4 12L13.2 16.2L11.8 14.8L13.6 13H7V11H13.6Z"
+                    fill="#1C2E45" fill-opacity="0.6" />
+                </svg>
+                <p class="category">Ventas local</p>
+              </label>
+              <input type="checkbox" id="ventaslocal" name="desktop-list">
+              <ul class="sub-category">
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Configuración ventas</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg></svg>
+                    <p>Ventas no touch</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+      <div class="main-panel">
+        <div class="desktop-nav-wrapper">nav</div>
+        <div class="wrapper-canva-sidebar">
+          <div class="desktop-canvas">canvas</div>
+          <div class="desktop-sidebar">sidebar</div>
+        </div>
+      </div>
+    </div>
+  </div>
   <script src="js/app.js"></script>
-
 </body>
-
 </html>

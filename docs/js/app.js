@@ -15,3 +15,12 @@ if (menuWrapper) {
 } else {
   console.warn("Element with class 'desktop-menu-wrapper' not found. Script disabled.");
 }
+
+// const list = document.getElementById('list');
+// list.addEventListener('click', (event) => {
+//   if (event.target.tagName === 'LI') {
+//     const items = list.querySelectorAll('li');
+//     items.forEach(item => item.classList.remove('active'));
+//     event.target.classList.add('active');
+//   }
+// });

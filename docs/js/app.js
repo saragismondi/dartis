@@ -1,26 +1,45 @@
-const menuWrapper = document.querySelector('.desktop-menu-wrapper');
+function menuWrapper() {
+  const menuWrapper = document.querySelector('.desktop-menu-wrapper');
 
-if (menuWrapper) {
-  const checkboxes = menuWrapper.querySelectorAll('input[type="checkbox"]');
+  if (menuWrapper) {
+    const checkboxes = menuWrapper.querySelectorAll('input[type="checkbox"]');
 
-  checkboxes.forEach(checkbox => {
-    checkbox.addEventListener('click', () => {
-      checkboxes.forEach(otherCheckbox => {
-        if (otherCheckbox !== checkbox) {
-          otherCheckbox.checked = false;
+    checkboxes.forEach(checkbox => {
+      checkbox.addEventListener('click', () => {
+        checkboxes.forEach(otherCheckbox => {
+          if (otherCheckbox !== checkbox) {
+            otherCheckbox.checked = false;
+          }
+        });
+      });
+    });
+  } else {
+    console.warn("Element with class 'desktop-menu-wrapper' not found. Script disabled.");
+  }
+}
+
+menuWrapper();
+
+function toggleIcons() {
+  document.addEventListener('DOMContentLoaded', function() {
+    const spans = document.querySelectorAll('span[class^="material-icons"]');
+ 
+    spans.forEach(span => {
+      span.addEventListener('click', function() {
+        spans.forEach(otherSpan => {
+          if (otherSpan !== this) {
+            otherSpan.classList.add('material-icons-outlined');
+          }
+        });
+        if (this.classList.contains('material-icons-outlined')) {
+          this.classList.remove('material-icons-outlined');
+          this.classList.add('material-icons');
+        } else {
+          this.classList.add('material-icons-outlined');
         }
       });
     });
   });
-} else {
-  console.warn("Element with class 'desktop-menu-wrapper' not found. Script disabled.");
 }
 
-// const list = document.getElementById('list');
-// list.addEventListener('click', (event) => {
-//   if (event.target.tagName === 'LI') {
-//     const items = list.querySelectorAll('li');
-//     items.forEach(item => item.classList.remove('active'));
-//     event.target.classList.add('active');
-//   }
-// });
+toggleIcons();

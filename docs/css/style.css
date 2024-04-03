@@ -28,21 +28,16 @@ svg {
   box-sizing: border-box;
 }
 .desktop-container {
-  /* outline: 5px solid red; */
   display: flex;
   min-height: 100vh;
   background-color: #F3F6F7;
 }
 .desktop-wrapper {
-  /* outline: 2px solid orange; */
   display: flex;
   flex-direction: row;
   flex: 1;
 }
-
 .main-panels {
-  background-color: grey;
-  /* outline: 2px solid green; */
   flex: 1;
 }
 .desktop-rigth-nav {
@@ -214,7 +209,6 @@ ul {
   text-align: center;
 }
 .desktop-nav-wrapper {
-  /* outline: 2px solid green; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -223,23 +217,18 @@ ul {
   box-shadow: 0 0px 7px 0px rgb(68 68 68 / 23%);
 }
 .desktop-canvas {
-  /* outline: 1px solid purple; */
   flex: 1;
   background-color: #F9FBFD;
   box-shadow: 0 0px 12px 0px rgb(68 68 68 / 23%);
 }
 .desktop-sidebar {
-  /* outline: 1px solid salmon; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 25px 10px;
-  border-radius: 5px;
+  padding: 25px;
   margin-left: 5px;
   margin-right: 5px;
-  /* outline: 1px solid #E7EDEF; */
-  box-shadow: 0 0px 7px 0px rgb(68 68 68 / 23%);
 }
 .desktop-sidebar .material-icons {
   font-size: 20px;

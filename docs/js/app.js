@@ -21,6 +21,7 @@ function menuWrapper() {
 menuWrapper();
 
 function toggleIcons() {
+  
   document.addEventListener('DOMContentLoaded', function() {
     const spans = document.querySelectorAll('span[class^="material-icons"]');
  

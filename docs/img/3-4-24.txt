@@ -1,0 +1,67 @@
+#F4F5F6
+
+*border raduis no se si le gusta 
+*problema de margin left en hoover 
+*active outlined/lined
+*el box shadow del canva, al no ser igual que el de ower bi, no se si si le gustara y el quiere que sea como efecto tipo 3d 
+
+queda por resolver que: 
+ cuando se pone en fill que no sea clickeable solo el span, osea solo el li completo 
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const spans = document.querySelectorAll('span[class^="material-icons"]');
+ 
+    spans.forEach(span => {
+      span.addEventListener('click', function() {
+        spans.forEach(otherSpan => {
+          if (otherSpan !== this) {
+            otherSpan.classList.add('material-icons-outlined');
+          }
+        });
+        if (this.classList.contains('material-icons-outlined')) {
+          this.classList.remove('material-icons-outlined');
+          this.classList.add('material-icons');
+        } else {
+          this.classList.add('material-icons-outlined');
+        }
+      });
+    });
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----
+
+ document.addEventListener('DOMContentLoaded', function() {
+   const spans = document.querySelectorAll('span[class^="material-icons"]');
+
+   spans.forEach(span => {
+     span.addEventListener('click', function() {
+       spans.forEach(otherSpan => {
+         if (otherSpan !== this) {
+           otherSpan.classList.add('material-icons-outlined');
+         }
+       });
+       if (this.classList.contains('material-icons-outlined')) {
+         this.classList.remove('material-icons-outlined');
+         this.classList.add('material-icons');
+       } else {
+         this.classList.add('material-icons-outlined');
+       }
+     });
+   });
+ });

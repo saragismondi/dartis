@@ -277,7 +277,7 @@ ul {
 }
 .desktop-list > li:hover {
   box-shadow: inset 3px 0 0 0 #7C8B9D;
-  background-color: #E8EAED;
+  background-color: #E6ECEF;
   font-weight: 700;
   border-radius: 2px;
  }
@@ -295,7 +295,7 @@ ul {
   align-items: center;
 }
 .sub-category {
-  background-color: #E8EAED;
+  background-color: #E6ECEF;
   position: absolute;
   left: 80px;
   top: 50px;

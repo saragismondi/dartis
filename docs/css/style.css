@@ -220,7 +220,6 @@ ul {
   justify-content: space-between;
   padding: 5px;
   padding-right: 10px;
-  border-radius: 5px;
   box-shadow: 0 0px 7px 0px rgb(68 68 68 / 23%);
 }
 .desktop-canvas {
@@ -228,7 +227,6 @@ ul {
   flex: 1;
   background-color: #F9FBFD;
   box-shadow: 0 0px 12px 0px rgb(68 68 68 / 23%);
-  border-radius: 5px;
 }
 .desktop-sidebar {
   /* outline: 1px solid salmon; */
@@ -236,7 +234,7 @@ ul {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 20px;
+  padding: 25px 10px;
   border-radius: 5px;
   margin-left: 5px;
   margin-right: 5px;
@@ -444,13 +442,9 @@ font-weight: 900;
 .desktop-nav-wrapper .button-container-subcategory .new-button {
   background-color: #575756;
   color: #F3F6F7;
-  /* padding: 5px 10px; */
-  border-radius: 5px;
   font-size: 12px;
   line-height: 1.5;
   cursor: pointer;
-  outline: 1px solid #E7EDEF;
-  padding: 1px 12px 1px 9px;
 }
 .desktop-nav-wrapper .button-container-subcategory .new-button:hover {
   background-color: #F3F6F7;

@@ -720,15 +720,27 @@
         <div class="desktop-nav-float">
           <div class="desktop-nav-wrapper">
             <div class="button-container-subcategory" >
-              <button class="new-button">
-                <span class="material-icons">
-                  add_circle_outline
-                  </span>
-                  Nuevo
-                <span class="material-icons margin-cero arrow_drop_down">
-                  arrow_drop_down
-                  </span>
-              </button>
+              <div class="dropdown-area-button">
+                <label for="new-button-dropdown">
+                  <div class="new-button">
+                    <span class="material-icons">
+                      add_circle_outline
+                      </span>
+                      Nuevo
+                    <span class="material-icons margin-cero arrow_drop_down">
+                      arrow_drop_down
+                      </span>
+                    </div>
+                </label>
+                <input type="checkbox" id="new-button-dropdown" name="new-button-dropdown">
+                <ul class="list-button">
+                  <li><a href="#">Editar</a></li>
+                  <li><a href="#">Posicionar</a></li>
+                  <li><a href="#">Entrega</a></li>
+                  <li><a href="#">Listas</a></li>
+                </ul>
+              </div>
+
               <button>
                 <span class="material-icons">
                   search

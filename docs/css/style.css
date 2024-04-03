@@ -29,7 +29,7 @@ svg {
 }
 .desktop-container {
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
   background-color: #F3F6F7;
 }
 .desktop-wrapper {
@@ -126,6 +126,9 @@ svg {
   display: flex;
   flex-direction: column;
 }
+#new-button-dropdown:checked ~ .list-button {
+  display: block;
+}
 .sub-category svg{
   width: 45px;
   height: 45px;
@@ -191,6 +194,10 @@ svg {
   visibility: hidden;
 }
 #img {
+  position: absolute;
+  visibility: hidden;
+}
+#new-button-dropdown {
   position: absolute;
   visibility: hidden;
 }
@@ -299,6 +306,11 @@ ul {
   padding: 0;
   margin: 0;
   border: 0;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+.desktop-fieldset::-webkit-scrollbar {
+  display: none;
 }
 .img-perfil {
   width: 20px;
@@ -371,6 +383,8 @@ font-weight: 900;
 .button-container-subcategory {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .button-container-perfil {
   display: flex;
@@ -398,7 +412,6 @@ font-weight: 900;
   justify-content: center;
   align-items: center;
   background-color: #F3F6F7;
-  margin-right: 15px;
   box-shadow: inset -1px 0 0 0 #E7EDEF;
 }
 .button-container-perfil > button > .material-icons {
@@ -434,6 +447,11 @@ font-weight: 900;
   font-size: 12px;
   line-height: 1.5;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
 }
 .desktop-nav-wrapper .button-container-subcategory .new-button:hover {
   background-color: #F3F6F7;
@@ -450,9 +468,45 @@ font-weight: 900;
 padding: 5px;
 padding-left: 0;
 }
-.desktop-nav-wrapper .button-container-subcategory .new-button .material-icons {
+.desktop-nav-wrapper .button-container-subcategory .new-button .material-icons:first-child {
   color: #F3F6F7;
+  margin-right: 10px;
 }
-/* .desktop-nav-wrapper .button-container-subcategory .new-button:hover {
-  color: #575756; 
-} */
+.desktop-nav-wrapper .button-container-subcategory .new-button:hover .material-icons {
+  color: #575756;
+}
+.list-button {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  top: 40px;
+  min-width: 109px;
+}
+.list-button > li {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #575756;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.list-button > li a {
+  text-decoration: none;
+  width: 100%;
+  padding: 7px 5px;
+  display: block;
+  background-color: #f6f6f6;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  color: #575756;
+}
+.list-button > li a:hover {
+  background-color: #E6ECEF;
+  font-weight: 700;
+}
+
+.new-button .material-icons {
+  font-size: 20px;
+}

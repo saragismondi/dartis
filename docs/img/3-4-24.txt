@@ -65,3 +65,64 @@ document.addEventListener('DOMContentLoaded', function() {
      });
    });
  });
+
+
+
+
+3/4/2024--- dartis
+ color robado de outlook #f5f5f5
+
+#F8F7F2
+
+#F1EFE4
+
+
+#E6ECEF
+#E8EAED
+#7C8B9D
+
+         <li>
+              <label for="compras">
+                <span class="material-icons-outlined">
+                  shop
+                  </span>
+                <p class="category">Compras</p>
+              </label>
+              <input type="checkbox" id="compras" name="desktop-list">
+              <ul class="sub-category">
+                <h3 class="subtitle-sub-category">Compras</h3>
+                <li>
+                  <a href="#">
+                    <span class="material-icons">
+                      shop_2
+                      </span>
+                    <p>Configuracion Compras</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="material-icons">
+                      grading
+                      </span>
+                    <p>Ordenes</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="material-icons">
+                      account_box
+                      </span>
+                    <p>Proveedores</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="material-icons">
+                      assignment_turned_in
+                      </span>
+                    <p>Requisiciones</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+

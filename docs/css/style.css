@@ -448,7 +448,7 @@ font-weight: 900;
   justify-content: center;
 }
 .desktop-nav-wrapper .button-container-subcategory .new-button {
-  background-color: #575756;
+  background-color:#7C8B9D;
   color: #F3F6F7;
   font-size: 12px;
   line-height: 1.5;
@@ -476,7 +476,7 @@ padding-left: 0;
 }
 .desktop-nav-wrapper .button-container-subcategory .new-button .material-icons:first-child {
   color: #F3F6F7;
-  margin-right: 10px;
+  margin-right: 4px;
 }
 .desktop-nav-wrapper .button-container-subcategory .new-button:hover .material-icons {
   color: #575756;
@@ -485,8 +485,8 @@ padding-left: 0;
   display: none;
   position: absolute;
   background-color: grey;
-  top: 40px;
-  min-width: 109px;
+  top: 30px;
+  min-width: 100%;
   box-shadow: 0 0px 7px 0px rgb(68 68 68 / 23%);
 }
 .list-button > li {
@@ -516,4 +516,7 @@ padding-left: 0;
 
 .new-button .material-icons {
   font-size: 20px;
+}
+.dropdown-area-button {
+  position: relative;
 }

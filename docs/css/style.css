@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  /* max-width: 1440px; */
 }
 h1,
 h2,
@@ -31,6 +30,7 @@ svg {
   display: flex;
   height: 100vh;
   background-color: #F3F6F7;
+  overflow: hidden;
 }
 .desktop-wrapper {
   display: flex;
@@ -39,9 +39,6 @@ svg {
 }
 .main-panels {
   flex: 1;
-}
-.desktop-rigth-nav {
-  /* outline: 2px solid pink; */
 }
 .desktop-menu-wrapper svg {
   width: 45px;
@@ -250,7 +247,6 @@ ul {
   background-color: #F3F6F7;
 }
 .wrapper-canva-sidebar {
-  /* outline: 1px solid gold; */
   flex: 1;
   flex-direction: row;
   display: flex;
@@ -342,7 +338,6 @@ ul {
  text-align: center;
 }
 .perfil-wrapper {
-  /* outline: 2px solid black; */
   padding: 10px;
 }
 .desktop-list li label .material-icons,

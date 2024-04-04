@@ -294,7 +294,7 @@ ul {
   height: calc(100% - 50px);
   max-height: 100%;
   width: 220px;
-  box-shadow: 3px 0 0 0 #D1D9E2;
+  box-shadow: 3px 0px 8px 0px rgb(68 68 68 / 23%);
 }
 .desktop-fieldset {
   display: flex;

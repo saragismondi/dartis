@@ -1,0 +1,207 @@
+@import url("../css/main.css");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h6 {
+  margin-top: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img,
+video,
+svg {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.desktop-login-container {
+    outline: 7px solid red;
+    display: flex;
+    height: 100vh;
+    background-color: var(--pale-lavender);
+    overflow: hidden;
+}
+.login-wrapper {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-area-container {
+    width: 1220px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow:var(--soft-shadow);
+    border-radius: 1px;
+}
+.material-icons-outlined.icon-background {
+   font-size: 1100px;
+   color: var(--lavender-gray);
+   position: absolute;
+   right: -340px;
+}
+.login-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.login-img {
+    height: 800px;
+    width: 100%;
+}
+.login-data-container {
+    width: 50%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-silver);
+    z-index: 2;
+}
+.login-img-container {
+    width: 50%;
+    position: relative;
+}
+.logo-overlay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.password-input {
+    position: relative;
+    padding: 20px;
+    border:var(--border-thin-steel-blue);
+    display: flex;
+    margin-bottom: 40px;
+}
+.password-input input {
+    border: 0;
+    background-color: var(--light-silver);
+}
+.material-icons-outlined.icon-absolute {
+    position: absolute;
+    font-size: 11px;
+    top: 24px;
+    right: 20px;
+}
+.email-input {
+    padding: 20px;
+    border: var(--border-thin-steel-blue);
+    border-bottom: 0;
+    display: flex;
+}
+.remember-me-input {
+    display: flex;
+    flex-direction: row;
+}  
+.email-input input {
+    border: 0;
+    background-color: var(--light-silver);
+}
+.login-title {
+    font-size: 22px;
+    color: var(--dark-gray);
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-shadow: var(--text-shadow);
+}
+.login-subtitle {
+    font-size: 16px;
+    color: var(--steel-blue);
+    line-height: 1;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.remember-me-text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+    color: var(--dark-gray);
+    text-shadow: var(--text-shadow);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 40px;
+}
+.remember-me-text > a {
+    margin-right: 0;
+    text-decoration: none;
+}
+.remember-me-input {
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+#remember_me {
+    margin-right: 10px;
+}
+
+.login-form-wrapper form {
+    width: 400px;
+}
+.forgot-password-text {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+    color: var(--dark-gray);
+    text-shadow: var(--text-shadow);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+.button-container button {
+    border: 0;
+    padding: 20px 25px;
+    background-color: var(--gray);
+    color: var(--pale-lavender);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+    border-radius: 1px;
+}
+.logo-text {
+    color: var(--pale-lavender);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 0;
+    text-shadow: var(--text-shadow-custom)
+}
+.material-icons-outlined.logo-icon {
+    font-size: 48px;
+    color: var(--pale-lavender);
+    margin-right: 5px;
+    text-shadow: var(--text-shadow-custom)
+}
+.login-img-container {
+    background-image: url(../img/bg-1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

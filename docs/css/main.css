@@ -1,0 +1,43 @@
+:root {
+    /* Colores: */
+    --light-blue-gray: #F3F6F7; /* Gris Azul Claro */
+    --dark-charcoal: #575756;   /* Carbón Oscuro */
+    --white: #F9FBFD;            /* Blanco */
+    --pale-lavender: #E6ECEF;   /* Lavanda Pálida */
+    --pale-silver: #F4F5F6;     /* Plata Pálida */
+    --gray: #7C8B9D;            /* Gris */
+    --dark-charcoal: #575756;   /* Carbón Oscuro */
+    --dark-gray: #444444;       /* Gris Oscuro */
+    --plum-blue: #E7EDEF;       /* Azul Plomizo */
+    --black: #000000;           /* Negro */
+    --gray-808080: #808080;     /* Gris 808080 */
+    --light-silver: #F6F6F6;    /* Plata Claro */
+    --plum-blue-outline-color: #9299aa; /* Color del contorno Azul Plomizo */
+    --light-ice-blue: #dce1ec;  /* Azul Hielo Claro */
+    --steel-blue: #b1b9bd;      /* Azul Acero */
+    --lavender-gray: #d3cfd3;   /* Gris Lavanda */
+
+
+    /* Sombra: */
+    --soft-shadow: 0 0px 12px 0px rgba(68, 68, 68, 0.23); /* Sombra Suave */
+    --cool-gray-shadow: inset 3px 0 0 0 var(--gray);       /* Sombra Gris */
+    --pale-lavender-shadow: inset 3px 0 0 0 var(--pale-lavender);  /* Sombra Lavanda Pálida */
+    --pale-silver-shadow: inset 3px 0 0 0 var(--pale-silver);    /* Sombra Plata Pálida */
+    --dark-charcoal-shadow: inset 3px 0 0 0 var(--dark-charcoal);/* Sombra Carbón Oscuro */
+    --plum-blue-shadow: inset -1px 0 0 0 var(--plum-blue); 
+    --extra-box-shadow: 3px 0px 8px 0px rgb(68 68 68 / 23%);              /* Sombra Azul Plomizo */
+    --box-shadow-7: 0 0px 7px 0px rgb(68 68 68 / 23%);         /* Sombra 7 */
+    
+    /* Contorno: */
+    --plum-blue-outline: 4px solid var(--plum-blue-outline-color); /* Contorno Azul Plomizo */
+    --gray-808080-outline-thin: 1px solid var(--gray-808080); /* Contorno Azul Plomizo */
+
+
+    /* Texto: */
+    --text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.05); /* Sombra de Texto */
+    --text-shadow-custom: 2px 2px 4px rgba(255, 255, 255, 0.5); /* Sombra de Texto Personalizada */
+
+    /* Bordes  */
+    --border-thin-steel-blue: 1px solid var(--steel-blue);
+  }
+

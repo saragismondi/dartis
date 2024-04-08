@@ -231,3 +231,13 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
+#abierto {
+    display: none;
+} 
+.visibility {
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+}

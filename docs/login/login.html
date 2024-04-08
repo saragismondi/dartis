@@ -54,9 +54,14 @@
                 <div class="password-input">
                   <label for="password"></label><br>
                   <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
-                  <span class="material-icons-outlined icon-absolute">
-                    remove_red_eye
-                  </span><br>
+                  <button class="visibility">
+                    <span class="material-icons-outlined icon-absolute" id="abierto">
+                      visibility_off
+                      </span>
+                    <span class="material-icons-outlined icon-absolute" id="cerrado">
+                      remove_red_eye
+                    </span>
+                  </button>
                 </div>
                 <div class="remember-me-input">
                   <input type="checkbox" id="remember_me" name="remember_me">
@@ -86,7 +91,7 @@
 
   </div>
 
-  <script src="js/app.js"></script>
+  <script src="login.js"></script>
 </body>
 
 </html>

@@ -89,7 +89,7 @@ svg {
     padding: 20px;
     border:var(--border-thin-steel-blue);
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
 .password-input input {
     border: 0;
@@ -114,32 +114,45 @@ svg {
 .email-input input {
     border: 0;
     background-color: var(--light-silver);
+    width: 100%;
 }
 .email-input input:active,
 .email-input input:focus,
 .password-input input:active,
-.password-input input:focus {
+.password-input input:focus,
+.email-input input:focus-within,
+.email-input input:focus-visible {
     outline: none;
     border: 0;
     box-shadow: none;
     background-color: var(--light-silver);
 }
 .login-title {
-    font-size: 22px;
+    font-size: 36px;
     color: var(--dark-gray);
     line-height: 1.2;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 30px;
     text-shadow: var(--text-shadow);
+    margin-bottom: 5px;
 }
-.login-subtitle {
-    font-size: 16px;
+ .login-subtitle {
+    font-size: 24x;
+    color: var(--dark-gray);
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 30px;
+ }
+
+.login-text {
+    font-size: 15px;
     color: var(--steel-blue);
     line-height: 1;
     font-weight: 700;
     margin-top: 0;
-    margin-bottom: 70px;
+    margin-bottom: 15px;
 }
 .remember-me-text {
     font-weight: 700;
@@ -151,9 +164,10 @@ svg {
     margin-bottom: 0;
     margin-right: 40px;
 }
-.remember-me-text > a {
+.forgot-password-text > a {
     margin-right: 0;
     text-decoration: none;
+    color: var(--dark-gray);
 }
 .remember-me-input {
     flex-direction: row;
@@ -189,6 +203,10 @@ svg {
     line-height: 1;
     cursor: pointer;
     border-radius: 1px;
+}
+button:hover {
+    background-color: var(--pale-lavender);
+    color: var(--gray);
 }
 .logo-text {
     color: var(--pale-lavender);

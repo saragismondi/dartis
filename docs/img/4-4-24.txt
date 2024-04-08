@@ -1,0 +1,81 @@
+ background-color: #F3F6F7; 
+  color: #575756;
+ color: #575756;
+  background-color: #F9FBFD;
+
+box-shadow: 0 0px 12px 0px rgb(68 68 68 / 23%);
+
+  color:#7C8B9D;
+  color: #575756;
+  background-color: #F3F6F7;
+
+ box-shadow: inset 3px 0 0 0 #7C8B9D;
+  background-color: #E6ECEF;
+background-color: #E6ECEF;
+ box-shadow: 3px 0px 8px 0px rgb(68 68 68 / 23%);
+}
+
+outline: 4px solid #9299aa;
+color: #575756;
+
+ color: #444444;
+  color: #7C8B9D;
+  color: #7C8B9D;
+  color: #575756;
+ color: #7C8B9D;
+  background-color: #F4F5F6;
+  box-shadow: inset 3px 0 0 0 #7C8B9D;
+  color: #7C8B9D;
+color: #575756;
+  background-color: #F3F6F7;
+  box-shadow: inset -1px 0 0 0 #E7EDEF;
+ color:#7C8B9D;
+ color:#575756;
+ background-color: #F3F6F7;
+ color:#444444;
+  color: #7C8B9D;
+ background-color:#7C8B9D;
+  color: #F3F6F7;
+  background-color: #F3F6F7;
+  color: #575756; 
+  color: #575756; 
+  color: #F3F6F7;
+ color: #F3F6F7;
+color: #575756;
+  background-color: #808080;
+  box-shadow: 0 0px 7px 0px rgb(68 68 68 / 23%);
+
+  color: #575756;
+background-color: #f6f6f6;
+  color: #575756;
+  background-color: #E6ECEF;
+
+
+
+
+y ahora necesito nombrar todos estos colores en estas listas, con nombres tales como aqui te doy un ejemplo : "--white--100: #FFFFFF" 
+
+
+
+
+
+Colores:
+color: #7C8B9D;
+color: #575756;
+background-color: #F3F6F7;
+background-color: #E6ECEF;
+background-color: #F4F5F6;
+background-color: #7C8B9D;
+color: #444444;
+background-color:  #808080;
+background-color: #f6f6f6;
+Sombra:
+box-shadow: inset 3px 0 0 0 #7C8B9D;
+box-shadow: 3px 0px 8px 0px rgb(68 68 68 / 23%);
+box-shadow: inset -1px 0 0 0 #E7EDEF;
+box-shadow: 0 0px 7px 0px rgb(68 68 68 / 23%);
+Contorno:
+outline: 4px solid #9299aa;
+
+
+rgb(146, 153, 170)

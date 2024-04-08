@@ -115,6 +115,15 @@ svg {
     border: 0;
     background-color: var(--light-silver);
 }
+.email-input input:active,
+.email-input input:focus,
+.password-input input:active,
+.password-input input:focus {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    background-color: var(--light-silver);
+}
 .login-title {
     font-size: 22px;
     color: var(--dark-gray);

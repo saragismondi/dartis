@@ -70,8 +70,6 @@ svg {
 .login-data-container {
     width: 50%;
     padding: 50px;
-    display: flex;
-    flex-direction: column;
     background-color: var(--light-silver);
     z-index: 2;
 }
@@ -94,11 +92,12 @@ svg {
 .password-input input {
     border: 0;
     background-color: var(--light-silver);
+    width: 100%;
 }
 .material-icons-outlined.icon-absolute {
     position: absolute;
-    font-size: 11px;
-    top: 24px;
+    font-size: 20px;
+    top: 20px;
     right: 20px;
 }
 .email-input {
@@ -195,7 +194,7 @@ svg {
 }
 .button-container button {
     border: 0;
-    padding: 20px 25px;
+    padding: 16px 24px;
     background-color: var(--gray);
     color: var(--pale-lavender);
     font-size: 16px;
@@ -204,7 +203,7 @@ svg {
     cursor: pointer;
     border-radius: 1px;
 }
-button:hover {
+.button-container button:hover {
     background-color: var(--pale-lavender);
     color: var(--gray);
 }

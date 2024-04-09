@@ -49,11 +49,13 @@
               <form action="/submit_form" method="post">
                 <div class="email-input">
                   <label for="email"></label><br>
-                  <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required><br>
+                  <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico"><br>
+                  <div id="div-alert-email">Debe cargar su correo electrónico</div>
                 </div>
                 <div class="password-input">
                   <label for="password"></label><br>
-                  <input type="password" id="password" name="password" placeholder="***************" required>
+                  <input type="password" id="password" name="password" placeholder="***************">
+                  <div id="div-alert-password">Debe cargar una contraseña correcta</div>
                   <button class="visibility">
                     <span class="material-icons-outlined icon-absolute" id="abierto">
                       visibility_off
@@ -71,7 +73,7 @@
                   <p class="forgot-password-text"><a href="#">Forgot password?</a></p>
                 </div>
                 <div class="button-container">
-                  <button type="submit">Iniciar Sesión</button>
+                  <button type="submit" id="submit-form">Iniciar Sesión</button>
                 </div>
               </form>
             </div>

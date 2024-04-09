@@ -14,3 +14,50 @@ cerrado.addEventListener("click", function() {
 }
 
 seePassword();
+
+
+function verificarFormulario() {
+  document.getElementById("submit-form").addEventListener("click", function(event) {
+      event.preventDefault();
+      var campo1 = document.getElementById("email").value;
+
+      if (campo1 === "") {
+          var alertDivEmail = document.getElementById("div-alert-email");
+          if (alertDivEmail) {
+              alertDivEmail.style.display = "block";
+          }
+
+          var alertDivPassword = document.getElementById("div-alert-password");
+          if (alertDivPassword) {
+              alertDivPassword.style.display = "none";
+          }
+      } else {
+          var campo2 = document.getElementById("password").value;
+          if (campo2 === "") {
+              var alertDivPassword = document.getElementById("div-alert-password");
+              if (alertDivPassword) {
+                  alertDivPassword.style.display = "block";
+              }
+              var alertDivEmail = document.getElementById("div-alert-email");
+              if (alertDivEmail) {
+                  alertDivEmail.style.display = "none";
+              }
+          } else {
+              var alertDivEmail = document.getElementById("div-alert-email");
+              if (alertDivEmail) {
+                  alertDivEmail.style.display = "none";
+              }
+              var alertDivPassword = document.getElementById("div-alert-password");
+              if (alertDivPassword) {
+                  alertDivPassword.style.display = "none";
+              }
+              document.getElementById("formulario").submit();
+          }
+      }
+  });
+}
+
+verificarFormulario()
+
+
+

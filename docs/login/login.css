@@ -87,7 +87,7 @@ svg {
     padding: 20px;
     border:var(--border-thin-steel-blue);
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 22px;
 }
 .password-input input {
     border: 0;
@@ -103,8 +103,9 @@ svg {
 .email-input {
     padding: 20px;
     border: var(--border-thin-steel-blue);
-    border-bottom: 0;
     display: flex;
+    position: relative;
+    margin-bottom: 22px;
 }
 .remember-me-input {
     display: flex;
@@ -169,7 +170,7 @@ svg {
 }
 .remember-me-input {
     flex-direction: row;
-    margin-top: 15px;
+    margin-top: 22px;
     margin-bottom: 40px;
     display: flex;
     align-items: center;
@@ -244,4 +245,20 @@ svg {
 }
 .password-input input[type="password"]::placeholder {
     color: var(--gray-opacity);
+}
+#div-alert-email {
+    position: absolute;
+    top: 65px;
+    font-size: 9px;
+    color: var(--red-alert);
+    left: 0;
+    display: none;
+}
+#div-alert-password {
+    position: absolute;
+    top: 65px;
+    font-size: 9px;
+    color: var(--red-alert);
+    left: 0;
+    display: none;
 }

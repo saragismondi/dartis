@@ -24,7 +24,7 @@ function verificarFormulario() {
       if (campo1 === "") {
           var alertDivEmail = document.getElementById("div-alert-email");
           if (alertDivEmail) {
-              alertDivEmail.style.display = "block";
+              alertDivEmail.style.display = "flex";
           }
 
           var alertDivPassword = document.getElementById("div-alert-password");
@@ -36,7 +36,7 @@ function verificarFormulario() {
           if (campo2 === "") {
               var alertDivPassword = document.getElementById("div-alert-password");
               if (alertDivPassword) {
-                  alertDivPassword.style.display = "block";
+                  alertDivPassword.style.display = "flex";
               }
               var alertDivEmail = document.getElementById("div-alert-email");
               if (alertDivEmail) {

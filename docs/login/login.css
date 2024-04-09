@@ -249,16 +249,31 @@ svg {
 #div-alert-email {
     position: absolute;
     top: 65px;
-    font-size: 9px;
+    font-size: 10px;
     color: var(--red-alert);
     left: 0;
     display: none;
 }
+
+#div-alert-email > span {
+    color: var(--red-alert);
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
+}
 #div-alert-password {
     position: absolute;
     top: 65px;
-    font-size: 9px;
+    font-size: 10px;
     color: var(--red-alert);
     left: 0;
     display: none;
+}
+#div-alert-password > span {
+    color: var(--red-alert);
+    font-size: 11px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 5px;
 }

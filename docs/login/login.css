@@ -166,7 +166,6 @@ svg {
 .forgot-password-text > a {
     margin-right: 0;
     text-decoration: none;
-    color: var(--dark-gray);
 }
 .remember-me-input {
     flex-direction: row;

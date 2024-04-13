@@ -552,16 +552,16 @@ padding-left: 0;
 .lds-ring {
   display: inline-block;
   position: relative;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 .lds-ring div {
   box-sizing: border-box;
   display: block;
   position: absolute;
-  width: 40px;
-  height: 40px;
-  border: 8px solid #d0157d;
+  width: 30px;
+  height: 30px;
+  border: 5px solid #d0157d;
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   border-color: #d0157d transparent transparent transparent;

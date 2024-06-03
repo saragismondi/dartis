@@ -455,14 +455,14 @@ font-weight: 900;
 }
 
 .select-custom::before {
-  content: ""; 
+  content: "";
   position: absolute;
   right: 10px;
   top: 50%;
-  transform: translateY(-50%);
-  border-right: 8px solid var(--gray);
-  border-top: 4px solid transparent;
-  border-bottom: 4px solid transparent;
+  transform: translateY(-50%) rotate(-90deg); 
+  border-right: 6px solid var(--gray);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
 }
 
 .select-custom.open::before {
@@ -478,7 +478,8 @@ font-weight: 900;
   background-color: var(--light-silver);
   z-index: 1;
   max-height: 150px;
-  overflow-y: scroll; 
+  overflow-y: scroll;
+  box-shadow: var(--box-shadow-7); 
 }
 
 .select-custom-list li {

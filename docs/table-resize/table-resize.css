@@ -1,21 +1,38 @@
 body {
     font-family: Arial, sans-serif;
 }
+table {
+    width: 100%;
+}
 .contenedor {
-    width: 400px;
+    width: 500px;
     margin: auto;
     margin-top: 100px;
+    height: 200px;
+    overflow-y: scroll;
 }
-table, th {
+table, th, td {
     border-collapse: collapse;
     width: 100%;
     border: 1px solid  #D1D9E2;
-    background-color: #F3F6F7;
+    background-color: #fefefe;
+}
+tfoot {
+    position: sticky;
+    bottom: 0;
+  }
+ 
+tfoot tr td {
+    width: 97px;
+    height:20px;
 }
 table th p {
     font-weight: 600;
 }
 table th.resizing {
+    cursor: col-resize;
+}
+tfoot tr td.resizing {
     cursor: col-resize;
 }
 
@@ -26,17 +43,18 @@ table th.resizing {
     /* padding-left: 10px!important;
     padding-right: 10px!important; */
     text-align: left;
-    background-color: #F3F6F7;
+    background-color: #fefefe;
 }
 
 .contenedor table th {
     padding: 3px;
 }
-table th, table td {
+table th, table td, {
     width: 97px;
     height:20px;
 }
-table p{
+table p, 
+table tfoot tr td p {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;

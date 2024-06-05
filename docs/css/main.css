@@ -22,11 +22,11 @@
     --red-alert: #D00000; /* Rojo Intenso */
     --yellow-alert: #FFBA08; /* Amarillo Brillante */
     --white-light: #fefefe; /* Blanco calrito */
-
+    --ultra-pink: #FF69EB; /* Ultra Rosa */
 
     /* Sombra: */
     --soft-shadow: 0 0px 12px 0px rgba(68, 68, 68, 0.23); /* Sombra Suave */
-    --cool-gray-shadow: inset 3px 0 0 0 var(--gray);       /* Sombra Gris */
+    --cool-gray-shadow: inset 3px 0 0 0 var(--ultra-pink);       /* Sombra Gris */
     --pale-lavender-shadow: inset 3px 0 0 0 var(--pale-lavender);  /* Sombra Lavanda Pálida */
     --pale-silver-shadow: inset 3px 0 0 0 var(--pale-silver);    /* Sombra Plata Pálida */
     --dark-charcoal-shadow: inset 3px 0 0 0 var(--dark-charcoal);/* Sombra Carbón Oscuro */

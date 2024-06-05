@@ -68,7 +68,7 @@ svg {
   flex-direction: row;
   padding: 10px;
 }
-#compras:checked ~ .sub-category {
+ /* #compras:checked ~ .sub-category {
   display: flex;
   flex-direction: column;
 }
@@ -123,10 +123,10 @@ svg {
 #img:checked ~ .sub-category {
   display: flex;
   flex-direction: column;
-}
+} */
 #new-button-dropdown:checked ~ .list-button {
   display: block;
-}
+} 
 .sub-category svg{
   width: 45px;
   height: 45px;
@@ -233,6 +233,7 @@ ul {
   padding: 15px;
   margin-left: 5px;
   margin-right: 5px;
+  background-color: var(--light-blue-gray);
 }
 .desktop-sidebar .material-icons {
   font-size: 20px;
@@ -245,7 +246,7 @@ ul {
   padding: 0;
   cursor: pointer;
   color: var(--dark-charcoal);
-  background-color: var(--white);
+  background-color: transparent;
 }
 .wrapper-canva-sidebar {
   flex: 1;
@@ -265,11 +266,20 @@ ul {
  user-select: none;
  cursor: pointer;
 }
-.desktop-list > li:hover {
+.desktop-list > li:first-child {
+  padding-bottom: 0;
+}
+.desktop-list > li:hover,
+.desktop-list > li.active {
   box-shadow: var(--cool-gray-shadow);
   background-color: var(--pale-lavender);
   font-weight: 700;
  }
+ .desktop-list > li.active .material-icons,
+ .desktop-list > li.active .material-icons-outlined {
+  color: var(--ultra-pink);
+ }
+
  .desktop-list > li > label .category:hover {
   font-weight: 900;
  }
@@ -287,7 +297,7 @@ ul {
   background-color: var(--pale-lavender);
   position: absolute;
   left: 80px;
-  top: 50px;
+  top: 56px;
   height: calc(100% - 50px);
   max-height: 100%;
   width: 220px;
@@ -615,6 +625,63 @@ padding-left: 0;
 .dropdown-area-button {
   position: relative;
 }
+/* comienza hover and active --> rosa-fuscia*/
+
+.desktop-list li:hover .material-icons,
+.desktop-list li:hover .material-icons-outlined {
+  color: var(--ultra-pink);
+}
+.desktop-list li:active .material-icons,
+.desktop-list li:active .material-icons-outlined,
+.desktop-list li.active .material-icons {
+  color: var(--ultra-pink);
+}
+
+.sub-category {
+  display: none;
+}
+
+.sub-category.visible {
+  display: block;
+}
+
+.sub-category > li:hover .material-icons,
+.sub-category > li:hover .material-icons-outlined {
+  color: var(--ultra-pink);
+}
+.sub-category > li:active .material-icons,
+.sub-category > li:active .material-icons-outlined {
+  color: var(--ultra-pink);
+}
+
+.desktop-sidebar button:hover .material-icons,
+.desktop-sidebar button:hover .material-icons-outlined  {
+  color: var(--ultra-pink);
+}
+.desktop-sidebar button:active .material-icons,
+.desktop-sidebar button:active .material-icons-outlined  {
+  color: var(--ultra-pink);
+}
 
 
+.button-container-subcategory > button:hover .material-icons,
+.button-container-subcategory > button:hover .material-icons-outlined {
+  color: var(--ultra-pink);
+}
+.button-container-subcategory > button:active .material-icons,
+.button-container-subcategory > button:active .material-icons-outlined {
+  color: var(--ultra-pink);
+}
 
+
+.button-container-perfil > button:hover .material-icons,
+.button-container-perfil > button:hover .material-icons-outlined {
+  color: var(--ultra-pink);
+}
+
+.button-container-perfil > button:active .material-icons,
+.button-container-perfil > button:active .material-icons-outlined {
+  color: var(--ultra-pink);
+}
+
+/* termina hover and active --> rosa-fuscia*/

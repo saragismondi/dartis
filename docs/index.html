@@ -45,54 +45,23 @@
           <ul class="desktop-list" id="list">
             <li>
               <label for="img">
-                <img src="./img/DARTIS512_SINFONDO.png" alt="logotipo" class="logotipo" />
+                <img src="./img/DARTIS512_SINFONDO.png" alt="logotipo" class="logotipo"/>
               </label>
               <input type="checkbox" id="img" name="desktop-list">
             </li>
-            <li>
+
+
+            <li class="active">
               <label for="compras">
                 <span class="material-icons-outlined">
                   shop
                   </span>
                 <p class="category">Compras</p>
               </label>
-              <input type="checkbox" id="compras" name="desktop-list">
-              <ul class="sub-category">
-                <h3 class="subtitle-sub-category">Compras</h3>
-                <li>
-                  <a href="#">
-                    <span class="material-icons">
-                      shop_2
-                      </span>
-                    <p>Configuracion Compras</p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="material-icons">
-                      grading
-                      </span>
-                    <p>Ordenes</p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="material-icons">
-                      account_box
-                      </span>
-                    <p>Proveedores</p>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="material-icons">
-                      assignment_turned_in
-                      </span>
-                    <p>Requisiciones</p>
-                  </a>
-                </li>
-              </ul>
             </li>
+
+
+
             <li>
               <label for="contabilidad">
                 <span class="material-icons-outlined">
@@ -100,7 +69,6 @@
                   </span>
                 <p class="category">Contabilidad</p>
               </label>
-              <input type="checkbox" id="contabilidad" name="desktop-list">
               <ul class="sub-category">
                 <h3 class="subtitle-sub-category">Contabilidad</h3>
                 <li>
@@ -232,7 +200,6 @@
                   </span>
                 <p class="category">Cuentas por cobrar</p>
               </label>
-              <input type="checkbox" id="cuentasporcobrar" name="desktop-list">
               <ul class="sub-category">
                 <li>
                   <a href="#">
@@ -261,7 +228,6 @@
                   </span>
                 <p class="category">Cuentas por pagar</p>
               </label>
-              <input type="checkbox" id="cuentasporpagar" name="desktop-list">
               <ul class="sub-category">
                 <li>
                   <a href="#">
@@ -284,7 +250,6 @@
                   </span>
                 <p class="category">Cultivo</p>
               </label>
-              <input type="checkbox" id="cultivo" name="desktop-list">
               <ul class="sub-category">
                 <li>
                   <a href="#">
@@ -313,7 +278,6 @@
                   </span>
                 <p class="category">Exportaciones</p>
               </label>
-              <input type="checkbox" id="exportaciones" name="desktop-list">
               <ul class="sub-category">
                 <li>
                   <a href="#">
@@ -408,7 +372,6 @@
                   </span>
                 <p class="category">General</p>
               </label>
-              <input type="checkbox" id="general" name="desktop-list">
               <ul class="sub-category">
                 <li>
                   <a href="#">
@@ -425,7 +388,6 @@
                   </span>
                 <p class="category">Inventarios</p>
               </label>
-              <input type="checkbox" id="inventarios" name="desktop-list">
               <ul class="sub-category">
                 <li>
                   <a href="#">
@@ -454,7 +416,6 @@
                   </span>
                 <p class="category">Postcosecha</p>
               </label>
-              <input type="checkbox" id="postcosecha" name="desktop-list">
               <ul class="sub-category">
                 <li>
                   <a href="#">
@@ -567,7 +528,6 @@
                   </span>
                 <p class="category">RR.HH</p>
               </label>
-              <input type="checkbox" id="rrhh" name="desktop-list">
               <ul class="sub-category">
                 <li>
                   <a href="#">
@@ -644,7 +604,6 @@
                   </span>
                 <p class="category">Sistemas</p>
               </label>
-              <input type="checkbox" id="sistemas" name="desktop-list">
               <ul class="sub-category">
                 <li>
                   <a href="#">
@@ -667,7 +626,6 @@
                   </span>
                 <p class="category">Tesorería</p>
               </label>
-              <input type="checkbox" id="tesorería" name="desktop-list">
               <ul class="sub-category">
                 <li>
                   <a href="#">
@@ -690,7 +648,6 @@
                   </span>
                 <p class="category">Ventas local</p>
               </label>
-              <input type="checkbox" id="ventaslocal" name="desktop-list">
               <ul class="sub-category">
                 <li>
                   <a href="#">
@@ -706,7 +663,49 @@
                 </li>
               </ul>
             </li>
+
           </ul>
+
+          <!-- aca comienza la lista de subcategoria  -->
+
+          <ul class="sub-category" id="sub-category">
+            <h3 class="subtitle-sub-category">Compras</h3>
+            <li>
+              <a href="#">
+                <span class="material-icons">
+                  shop_2
+                  </span>
+                <p>Configuracion Compras</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="material-icons">
+                  grading
+                  </span>
+                <p>Ordenes</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="material-icons">
+                  account_box
+                  </span>
+                <p>Proveedores</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="material-icons">
+                  assignment_turned_in
+                  </span>
+                <p>Requisiciones</p>
+              </a>
+            </li>
+          </ul>
+
+          <!-- aca termina la lista de subcategoria -->
+
         </fieldset>
         <div class="perfil-wrapper">
           <a  class="link-perfil" href="#">

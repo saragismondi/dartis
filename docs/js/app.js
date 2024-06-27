@@ -103,22 +103,6 @@ function dropdownCompanySuc() {
 
 dropdownCompanySuc();
 
-// function openMenu() {
-// // Seleccionar el elemento con el primer ID
-// const firstElement = document.getElementById('list');
-
-// // Seleccionar el elemento con el segundo ID
-// const secondElement = document.getElementById('sub-category');
-
-// // Agregar evento de clic al primer elemento
-// firstElement.addEventListener('click', () => {
-//   // Agregar la clase 'show' al segundo elemento
-//   secondElement.classList.add('show');
-// });
-// }
-
-// openMenu();
-
 function openMenu() {
 const firstElement = document.getElementById('list');
 const secondElement = document.getElementById('sub-category');

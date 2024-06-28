@@ -62,5 +62,54 @@ table tfoot tr td {
 }
 .jexcel_dropdown.highlight-selected {
     border: 0!important;
-    box-shadow: inset 0 0 0 1px #000!important;
+    box-shadow: inset 0 0 0 1px #D1D9E2!important;
+}
+.jdropdown-default .jdropdown-item:hover {
+    background-color: #D1D9E2!important;
+    color: #575756!important;
+    border: 0!important;
+    box-shadow: inset 0 0 0 1px #D1D9E2!important;
+}
+.jdropdown-default .jdropdown-selected {
+    background-size: 10px;
+    background-color: #D1D9E2!important;
+    color: #575756!important;
+}
+.jdropdown-default .jdropdown-content {
+    border: 0!important;
+    box-shadow: inset 0 0 0 1px #D1D9E2!important;
+}
+.jdropdown-header.jss_object {
+    font-size: 11px!important;
+    color: #575756!important;
+}
+.jdropdown-item {
+    color: #575756!important;
+}
+.jdropdown-default .jdropdown-item {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    padding: 3px!important;
+}
+.highlight-selected input {
+    font-size: 11px!important;
+    padding: 0!important;
+    margin: 0!important;
+    color: #575756!important;
+    line-height: 1!important;
+}
+.highlight-selected {
+    font-size: 11px!important;
+    padding: 0!important;
+    margin: 0!important;
+    color: #575756!important;
+    line-height: 1!important;
+}
+.highlight-selected.highlight.highlight-top.highlight-bottom.highlight-left.highlight-right {
+    font-size: 11px!important;
+    padding: 0!important;
+    margin: 0!important;
+    color: #575756!important;
+    border : 0!important;
+    box-shadow: inset 0 0 0 1px #D1D9E2!important;
 }

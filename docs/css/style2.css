@@ -474,10 +474,8 @@ font-weight: 900;
   padding: 5px;
   cursor: pointer;
   height: 36px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden; 
   width:160px;
+  margin-right: 20px;
 }
 
 #suc:hover {

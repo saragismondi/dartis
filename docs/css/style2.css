@@ -224,6 +224,7 @@ ul {
   flex: 1;
   background-color: var(--white);
   box-shadow:var(--soft-shadow);
+  overflow-y: scroll;
 }
 .desktop-sidebar {
   display: flex;
@@ -252,6 +253,7 @@ ul {
   flex: 1;
   flex-direction: row;
   display: flex;
+  overflow: hidden;
 }
 .main-panel {
   display: flex;

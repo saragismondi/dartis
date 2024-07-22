@@ -1,0 +1,143 @@
+body {
+    font-family: "Roboto", sans-serif!important;
+    margin: 0;
+  }
+.wrapper-background {
+    width: 100vw;
+    background-color: #8081ad82;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    font-family: "Roboto", sans-serif!important;
+}
+
+.wrapper-content {
+    background-color: #F3F6F7;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.wrapper-content h2 {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+    color:  #575756;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: left;
+    font-family: "Roboto", sans-serif!important;
+}
+
+.get-out-button {
+    background-color: #F3F6F7;
+    color: #575756;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: auto;
+    border: 0;
+    font-family: "Roboto", sans-serif!important;
+}
+.get-out-button svg {
+    color: #575756;
+    fill:  #575756;
+}
+.title-container > .secondary-button {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color:  #575756;
+    border: 0;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F6F7;
+    box-shadow:  inset -1px 0 0 0 #E7EDEF; 
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif!important;
+}
+.secondary-button:hover {
+  background-color: #E6ECEF; 
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.button-container .copy-button {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color:  #575756;
+    border: 0;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F6F7;
+    box-shadow: 0px 0px 0px 1px #E7EDEF;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif!important;
+}
+.copy-button:hover {
+    background-color: #E6ECEF; 
+  }
+.button-container .cancel-button {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color:  #575756;
+    border: 0;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F6F7;
+    box-shadow: 0px 0px 0px 1px #E7EDEF;
+    margin-left: 10px;
+    cursor: pointer;  
+    font-family: "Roboto", sans-serif!important;
+}
+.cancel-button:hover {
+    background-color: #E6ECEF; 
+  }
+.secondary-button .material-icons {
+    font-size: 15px;
+    margin-right: 3px;
+}
+.title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.content-container {
+    background-color: #E6ECEF;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: scroll;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.content-container p {
+    color:  #575756;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif!important;
+}

@@ -620,3 +620,110 @@ padding-left: 0;
 }
 
 /* termina hover and active --> rosa-fuscia*/
+
+/* start new dropdown company-suc component */
+
+#selected-b {
+  font-size: 12px;
+  line-height: 1;
+  margin-bottom: 0;
+  text-align: center;
+  color: var(--dark-gray);
+  margin-top: 0;
+  margin-right: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.button-wrapper {
+  margin-right: 15px;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.select-button {
+  display: flex; 
+  position: relative; 
+  width: 120px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.select-button::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg); 
+  border-right: 6px solid var(--gray);
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+.select-button.open::before {
+  transform: translateY(-50%) rotate(90deg); 
+}
+
+.select-button-list {
+  display: none; 
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--light-silver);
+  z-index: 1;
+  max-height: 150px;
+  overflow-y: scroll;
+  box-shadow: var(--box-shadow-7); 
+}
+
+.select-button-list li {
+  padding: 5px;
+  cursor: pointer;
+}
+.select-button-list li h2 {
+  font-size: 10px;
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-align: left;
+  color: var(--dark-gray);
+  margin-top: 0;
+}
+
+.select-button-list li:hover {
+  background-color: var(--pale-lavender);
+}
+
+#selected-b div h2 {
+  font-size: 10px;
+  line-height: 1;
+  margin-bottom: 0;
+  text-align: left;
+  color: var(--dark-gray);
+  margin-top: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#selected-b div {
+  width: 120px;
+}
+.select-button:hover {
+  background-color: var(--pale-lavender);
+}
+
+.select-button .material-icons {
+  font-size: 20px;
+  color: var(--gray);
+  margin-right: 4px;
+  vertical-align: middle;
+  margin-top: -1px;
+}
+.select-button:hover .material-icons{
+  color: var(--ultra-pink);
+}
+
+ /* end new dropdown company-suc component */

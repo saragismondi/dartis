@@ -646,9 +646,9 @@ padding-left: 0;
 .select-button {
   display: flex; 
   position: relative; 
-  min-width: 120px;
   padding: 5px;
   cursor: pointer;
+  min-width: 120px;
 }
 
 .select-button::before {

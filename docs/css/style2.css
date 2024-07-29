@@ -674,7 +674,7 @@ padding-left: 0;
   width: 100%;
   background-color: var(--light-silver);
   z-index: 1;
-  max-height: 150px;
+  max-height: 656px;
   overflow-y: scroll;
   box-shadow: var(--box-shadow-7); 
 }
@@ -725,5 +725,9 @@ padding-left: 0;
 .select-button:hover .material-icons{
   color: var(--ultra-pink);
 }
+
+
+
+
 
  /* end new dropdown company-suc component */

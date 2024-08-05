@@ -416,7 +416,8 @@ font-weight: 900;
   justify-content: center;
   align-items: center;
   background-color: var(--light-blue-gray);
-  box-shadow: var(--plum-blue-shadow)
+  box-shadow: var(--plum-blue-shadow);
+  cursor: pointer;
 }
 .button-container-perfil > button > .material-icons {
   font-size: 20px;
@@ -623,111 +624,118 @@ padding-left: 0;
 
 /* start new dropdown company-suc component */
 
-#selected-b {
-  font-size: 12px;
-  line-height: 1;
-  margin-bottom: 0;
-  text-align: center;
-  color: var(--dark-gray);
-  margin-top: 0;
-  margin-right: 5px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+.material-symbols-outlined {font-size: 20px;
+    color: var(--gray);
+    margin-right: 4px;
 }
-.button-wrapper {
-  margin-right: 15px;
-  flex-direction: column;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.select-button {
-  display: flex; 
-  position: relative; 
-  padding: 5px;
-  cursor: pointer;
-  min-width: 120px;
-}
-
-.select-button::before {
-  content: "";
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%) rotate(-90deg); 
-  border-right: 6px solid var(--gray);
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-}
-
-.select-button.open::before {
-  transform: translateY(-50%) rotate(90deg); 
-}
-
-.select-button-list {
-  display: none; 
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background-color: var(--light-silver);
-  z-index: 1;
-  max-height: 656px;
-  overflow-y: scroll;
-  box-shadow: var(--box-shadow-7); 
-}
-
-.select-button-list li {
-  padding: 5px;
-  cursor: pointer;
-}
-.select-button-list li h2 {
-  font-size: 10px;
-  line-height: 1.5;
-  margin-bottom: 0;
-  text-align: left;
-  color: var(--dark-gray);
-  margin-top: 0;
-}
-
-.select-button-list li:hover {
-  background-color: var(--pale-lavender);
-}
-
-#selected-b div h2 {
-  font-size: 10px;
-  line-height: 1;
-  margin-bottom: 0;
-  text-align: left;
-  color: var(--dark-gray);
-  margin-top: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-#selected-b div {
-  width: 120px;
-}
-.select-button:hover {
-  background-color: var(--pale-lavender);
-}
-
-.select-button .material-icons {
-  font-size: 20px;
+.desktop-nav-wrapper .button-container-subcategory .new-button-desplegable {
+  background-color: var(--light-blue-gray);
   color: var(--gray);
-  margin-right: 4px;
-  vertical-align: middle;
-  margin-top: -1px;
+  font-size: 12px;
+  line-height: 1.5;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  height: 36px;
 }
-.select-button:hover .material-icons{
-  color: var(--ultra-pink);
-}
-
-
-
-
 
  /* end new dropdown company-suc component */
+
+/* star Title Menu */
+ .section-container .section-title {
+    font-size: 15px;
+    color: var(--dark-charcoal);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    line-height:1.3;
+    text-align: left;
+    padding: 5px 10px;
+    padding-left:0;
+ }
+ .section-container .section-title::first-letter {
+  text-transform: uppercase;
+ }
+ /* end Title Menu */
+
+/* star new checkbox */
+#checkbox-custom {
+  box-shadow:none;
+}
+.checkbox-container input[type=checkbox] {
+    visibility: hidden;
+  }
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    width: 28px;
+    height: 18px;
+    background: var(--plum-blue);
+    border-radius: 15px;
+    outline: var(--outline-thin-gray); 
+  }
+.checkbox-container label {
+  display: block;
+  width: 8px;
+	height: 8px;
+	border-radius: 17px;
+	box-shadow: var(--box-shadow-custom);
+	background-color: var(--gray);
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+	left: 5px;
+  z-index: 1;
+  transition: all .4s ease;
+}
+.checkbox-container input[type=checkbox]:checked + label {
+	left: auto;
+  right: 5px;
+}
+.desktop-nav-wrapper .button-container-subcategory .new-button-desplegable:hover {
+  background-color: var(--light-blue-gray);
+  color: var(--dark-charcoal); 
+}
+.list-button-desplegable {
+  display: none;
+  position: absolute;
+  background-color: var(--gray-808080);
+  top: 37px;
+  min-width: 100%;
+  box-shadow: var( --box-shadow-7);
+}
+.list-button > li {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--dark-charcoal);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.list-button-desplegable > li a {
+  text-decoration: none;
+  width: 100%;
+  padding: 7px 5px;
+  display: block;
+  background-color: var(--light-silver);
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  color: var(--dark-charcoal);
+}
+.list-button-desplegable > li a:hover {
+  background-color: var(--pale-lavender);
+  font-weight: 700;
+}
+#new-button-desplegable {
+  visibility:hidden;
+  position:absolute;
+}
+#new-button-desplegable:checked ~ .list-button-desplegable {
+  display: block;
+} 
+/* end new checkbox */

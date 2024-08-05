@@ -27,7 +27,7 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -719,6 +719,9 @@
         <div class="desktop-nav-float">
           <div class="desktop-nav-wrapper">
             <div class="button-container-subcategory" >
+              <div class="section-container">
+                <h2 class="section-title">variedades</h2>
+              </div>
               <div class="dropdown-area-button">
                 <label for="new-button-dropdown">
                   <div class="new-button">
@@ -766,13 +769,26 @@
 
              <!-- start new div button dropdown-->
 
-              <div class="select-button button-wrapper" id="select-b">
-                <span id="selected-b"><span class="material-icons">
-                  info
-                </span>Seleccionar</span>
-               <ul class="select-button-list" id="lista-b">
-            </ul>
-              </div>
+             <div class="dropdown-area-button">
+              <label for="new-button-dropdown">
+                <div class="new-button-desplegable">
+                  <span class="material-symbols-outlined">
+                    apps
+                    </span>
+                    Dropdown
+                  <span class="material-icons margin-cero arrow_drop_down">
+                    arrow_drop_down
+                    </span>
+                  </div>
+              </label>
+              <input type="checkbox" id="new-button-desplegable" name="new-button-desplegable">
+              <ul class="list-button-desplegable">
+                <li><a href="#">Editar</a></li>
+                <li><a href="#">Posicionar</a></li>
+                <li><a href="#">Entrega</a></li>
+                <li><a href="#">Listas</a></li>
+              </ul>
+            </div>
               <!-- end  new div button dropdown-->
               <button>
                 <span class="material-icons">
@@ -780,6 +796,15 @@
                   </span>
                   Reportes
               </button>
+                 <!-- start new checkbox-->
+              <button id="checkbox-custom">
+                    <div class="checkbox-container">
+                      <input type="checkbox" id="checkAvanzado" value="Valor"/>
+                      <label for="checkAvanzado"></label>
+                  </div>
+              </button>
+           
+             <!-- end new checkbox  -->
             </div>
             <div class="button-container-perfil">
               <button>

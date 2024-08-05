@@ -23,6 +23,7 @@
     --yellow-alert: #FFBA08; /* Amarillo Brillante */
     --white-light: #fefefe; /* Blanco calrito */
     --ultra-pink: #FF69EB; /* Ultra Rosa */
+    --shadow-color: #00000059; /* 59 es el valor hexadecimal para el 35% de opacidad */
 
     /* Sombra: */
     --soft-shadow: 0 0px 12px 0px rgba(68, 68, 68, 0.23); /* Sombra Suave */
@@ -30,14 +31,16 @@
     --pale-lavender-shadow: inset 3px 0 0 0 var(--pale-lavender);  /* Sombra Lavanda Pálida */
     --pale-silver-shadow: inset 3px 0 0 0 var(--pale-silver);    /* Sombra Plata Pálida */
     --dark-charcoal-shadow: inset 3px 0 0 0 var(--dark-charcoal);/* Sombra Carbón Oscuro */
-    --plum-blue-shadow: inset -1px 0 0 0 var(--plum-blue); 
+    --plum-blue-shadow: inset -3px 0 0 0 var(--plum-blue);  /* Sombra Azul Plomizo */
     --extra-box-shadow: 3px 0px 8px 0px rgb(68 68 68 / 23%);              /* Sombra Azul Plomizo */
     --box-shadow-7: 0 0px 7px 0px rgb(68 68 68 / 23%);         /* Sombra 7 */
+    --box-shadow-title: inset 3px 0 0 0 var(--plum-blue); /* Sombra para title azul Plomizo*/
+    --box-shadow-custom: 0px 2px 5px 0px var(--shadow-color);
     
     /* Contorno: */
     --plum-blue-outline: 4px solid var(--plum-blue-outline-color); /* Contorno Azul Plomizo */
-    --gray-808080-outline-thin: 1px solid var(--gray-808080); /* Contorno Azul Plomizo */
-
+    --gray-808080-outline-thin: 1px solid var(--gray-808080); /* Contorno Gris 808080*/
+    --outline-thin-gray: 1px solid var(--gray); /* Contorno Gris */
 
     /* Texto: */
     --text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.05); /* Sombra de Texto */

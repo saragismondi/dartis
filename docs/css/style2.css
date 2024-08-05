@@ -662,6 +662,9 @@ padding-left: 0;
  /* end Title Menu */
 
 /* star new checkbox */
+.dropdown-area-button label[for="new-button-desplegable"]:hover .material-symbols-outlined {
+ color: var(--ultra-pink);
+}
 #checkbox-custom {
   box-shadow:none;
 }
@@ -694,10 +697,6 @@ padding-left: 0;
 .checkbox-container input[type=checkbox]:checked + label {
 	left: auto;
   right: 5px;
-}
-.desktop-nav-wrapper .button-container-subcategory .new-button-desplegable:hover {
-  background-color: var(--light-blue-gray);
-  color: var(--dark-charcoal); 
 }
 .list-button-desplegable {
   display: none;
